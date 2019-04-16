@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40B4E7"
+    android:orientation="vertical"
+    tools:context=".verifyAccount">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="100dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/va_1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#98D4F1"
+        android:layout_marginTop="150dp"
+        android:text="@string/va_2" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:paddingBottom="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/va_3"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textColorHint="#BEE4E5"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/va_4"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="350dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#BEE4E5"
+            android:gravity="right"
+            android:text="@string/va_5" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:textColor="#ffffff"
+            android:text="@string/va_6" />
+    </LinearLayout>
+
+</RelativeLayout>
